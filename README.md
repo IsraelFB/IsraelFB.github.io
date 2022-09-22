@@ -7,12 +7,13 @@
 ![cooltext419183073128565](https://user-images.githubusercontent.com/104939556/190014568-aaa22c6f-a842-41cc-8436-07488de3267c.png)
 
 ### LCD 16×2
-  ```
+  
 
 El LCD(Liquid Crystal Dysplay) o pantalla de cristal líquido es un dispositivo empleado para la visualización de contenidos o información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos dependiendo del modelo.
 El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentación, control y bus de datos bidireccional. Por lo general podemos encontrar ademas en su estructura los pines de Anodo de led backlight y cátodo de led backlight.
 
 #### Pines de alimentación
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -55,6 +56,7 @@ E: Corresponde al pin Enable o de habilitación. Si E(0) esto quiere decir que e
 
 #### Programa Ccs compiler
 
+  ```
 
 
 #include <18f4550 .h=»»> //incluimos el pic a utilizar
@@ -74,7 +76,9 @@ delay_ms(100);
 lcd_putc(«\f Ingenieria»);
 lcd_putc(«\n Mecafenix»);
 }
+  ```
   
+
   
   
   
@@ -84,11 +88,11 @@ lcd_putc(«\n Mecafenix»);
   
   #### Programa ejemplo en el simulador:
   [Ejemplo simulado](https://wokwi.com/projects/343461815639867987)
-    ```
+   
 
   
   ### DISPLAY LCD 16X2 CON MÓDULO I2C
-   ```
+
  
 El I2C es un bus de comunicaciones que usa 2 líneas para enviar y recibir información y 2 más para alimentación. La gran cantidad de pines que tiene el display LCD 16x2 (16  pines) hace  necesario en algunas ocasiones que tenga incorporado (o incorporarle) un módulo para permitir la comunicación por I2C ya que con este necesita sólo 4 pines para funcionar.
 
@@ -165,7 +169,7 @@ SCL = A5
 
 #### Código:
 
- 
+ ```
 
 #include <Wire.h> // Esta Librería es la que permite la comunicacion por I2C
 
@@ -224,7 +228,7 @@ void loop()
 {
 
 }
-
+```
  
 
  
@@ -234,7 +238,7 @@ void loop()
   
 ![5_49703049-49f2-4e17-8212-95e98ee98ed6_large](https://user-images.githubusercontent.com/104939556/191604401-34eec7e3-5d60-4a9b-bb88-94335fb3b7c7.jpg)
   
-   ```
+   
  
   
 ### Imagen sin modulo I2C
