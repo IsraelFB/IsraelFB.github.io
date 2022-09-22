@@ -80,7 +80,8 @@ lcd_putc(«\n Mecafenix»);
   
   
   Programa ejemplo en el simulador:
-  https://wokwi.com/projects/343461815639867987
+  [Ejemplo simulado](https://wokwi.com/projects/343461815639867987)
+  
   
   ### DISPLAY LCD 16X2 CON MÓDULO I2C
   
