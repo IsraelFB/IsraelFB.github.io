@@ -75,11 +75,11 @@ lcd_putc(«\n Mecafenix»);
   
   
   
-  Imagen del circuito en proteus:
+  #### Imagen del circuito en proteus:
 ![Tutorial-lcd](https://user-images.githubusercontent.com/104939556/191602931-3e8b40fe-5103-4a79-ba6e-d0b07cc36c3c.jpg)
   
   
-  Programa ejemplo en el simulador:
+  #### Programa ejemplo en el simulador:
   [Ejemplo simulado](https://wokwi.com/projects/343461815639867987)
   
   
@@ -144,7 +144,7 @@ Esquema de conexión en Arduino UNO:
   ![LCD-01_large](https://user-images.githubusercontent.com/104939556/191604267-dda6bb5e-9812-424a-9fbb-7fa3f8760f35.jpg)
 
   
-  Nota:
+#### Nota:
 
 Depende la versión del display también se conecta así:
 
@@ -249,9 +249,9 @@ Lo que nos muestra el display:
   
   ## Bibliografia:
   
-  Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c
+  Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de [Ejemplo simulado](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c)[[https://wokwi.com/projects/343461815639867987](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c)).
   
-  Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de https://www.ingmecafenix.com/electronica/lcd/
+  Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de [https://www.ingmecafenix.com/electronica/lcd/]([https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c](https://www.ingmecafenix.com/electronica/lcd/).
   
-  Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de (https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/).
+  Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de [https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/](https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/).
  
