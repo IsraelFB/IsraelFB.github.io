@@ -7,6 +7,8 @@
 ![cooltext419183073128565](https://user-images.githubusercontent.com/104939556/190014568-aaa22c6f-a842-41cc-8436-07488de3267c.png)
 
 ### LCD 16×2
+  ```
+
 El LCD(Liquid Crystal Dysplay) o pantalla de cristal líquido es un dispositivo empleado para la visualización de contenidos o información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos dependiendo del modelo.
 El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentación, control y bus de datos bidireccional. Por lo general podemos encontrar ademas en su estructura los pines de Anodo de led backlight y cátodo de led backlight.
 
@@ -82,10 +84,12 @@ lcd_putc(«\n Mecafenix»);
   
   #### Programa ejemplo en el simulador:
   [Ejemplo simulado](https://wokwi.com/projects/343461815639867987)
-  
+    ```
+
   
   ### DISPLAY LCD 16X2 CON MÓDULO I2C
-  
+   ```
+ 
 El I2C es un bus de comunicaciones que usa 2 líneas para enviar y recibir información y 2 más para alimentación. La gran cantidad de pines que tiene el display LCD 16x2 (16  pines) hace  necesario en algunas ocasiones que tenga incorporado (o incorporarle) un módulo para permitir la comunicación por I2C ya que con este necesita sólo 4 pines para funcionar.
 
 El conjunto cuenta algunas ventajas más respecto al display por sí solo, como un pequeño potenciómetro para regular el contraste de la pantalla y la posibilidad de imprimir algunos caracteres especiales.
@@ -99,6 +103,7 @@ Para hacer uso del conjunto se hace necesaria la librería “Wire.h”, que nos
  
 
 #### Los pines a conectar en este conjunto son:
+
 
  
 <style type="text/css">
@@ -229,7 +234,8 @@ void loop()
   
 ![5_49703049-49f2-4e17-8212-95e98ee98ed6_large](https://user-images.githubusercontent.com/104939556/191604401-34eec7e3-5d60-4a9b-bb88-94335fb3b7c7.jpg)
   
-  
+   ```
+ 
   
 ### Imagen sin modulo I2C
   
@@ -249,10 +255,11 @@ void loop()
   
   
   **Bibliografia** 
-  
+  ```
   **Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de** [https://wokwi.com/projects/343461815639867987](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c).
   
   **Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de** [https://www.ingmecafenix.com/electronica/lcd/](https://www.ingmecafenix.com/electronica/lcd/).
   
   **Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de** [https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/](https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/).
- 
+   ```
+
