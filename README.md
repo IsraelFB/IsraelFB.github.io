@@ -4,6 +4,7 @@
 
 
 ![cooltext419183073128565](https://user-images.githubusercontent.com/104939556/190014568-aaa22c6f-a842-41cc-8436-07488de3267c.png)
+
 ### LCD 16×2
 El LCD(Liquid Crystal Dysplay) o pantalla de cristal líquido es un dispositivo empleado para la visualización de contenidos o información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos dependiendo del modelo.
 El LCD consta de 16 terminales las cuales podemos dividir en pines de alimentación, control y bus de datos bidireccional. Por lo general podemos encontrar ademas en su estructura los pines de Anodo de led backlight y cátodo de led backlight.
@@ -90,7 +91,8 @@ El conjunto cuenta algunas ventajas más respecto al display por sí solo, como 
 Para hacer uso del conjunto se hace necesaria la librería “Wire.h”, que nos permite la comunicación por I2C y la librería “LiquidCristal_I2C.h” que controla el display. 
   
   A continuación te facilitamos el enlace para que descargues la librería:
-  https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+  [Libreria]( https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library).
+ 
 
  
 
@@ -251,3 +253,4 @@ Lo que nos muestra el display:
   Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de https://www.ingmecafenix.com/electronica/lcd/
   
   Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/
+ 
