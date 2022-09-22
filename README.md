@@ -248,7 +248,7 @@ void loop()
   
   
   
-  ## Bibliografia 
+  **Bibliografia** 
   
   **Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de** [https://wokwi.com/projects/343461815639867987](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c).
   
