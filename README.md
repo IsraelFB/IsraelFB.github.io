@@ -216,7 +216,7 @@ void loop()
   
   
   **Bibliografia** 
-  ```
+  
   **Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de**
   [https://wokwi.com/projects/343461815639867987](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c).
   
@@ -226,5 +226,5 @@ void loop()
   **Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de**
   [https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/](https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/).
   
-   ```
+   
 
