@@ -1,3 +1,4 @@
+#0d1117
 # Exposicion sobre los LCD
 ##  Cuando los simples indicadores luminosos con led ya no son suficientes, habitualmente el siguiente paso para todo programador es ir por una pantalla lcd 16×2. 
 
@@ -97,7 +98,7 @@ Para hacer uso del conjunto se hace necesaria la librería “Wire.h”, que nos
 
  
 
-Los pines a conectar en este conjunto son:
+#### Los pines a conectar en este conjunto son:
 
  
 <style type="text/css">
@@ -139,7 +140,7 @@ Los pines a conectar en este conjunto son:
 
  
 
-Esquema de conexión en Arduino UNO:
+#### Esquema de conexión en Arduino UNO:
   
   ![LCD-01_large](https://user-images.githubusercontent.com/104939556/191604267-dda6bb5e-9812-424a-9fbb-7fa3f8760f35.jpg)
 
@@ -157,7 +158,7 @@ SDA = A4
 SCL = A5
 
 
-Código:
+#### Código:
 
  
 
@@ -223,7 +224,7 @@ void loop()
 
  
 
-Lo que nos muestra el display:
+#### Lo que nos muestra el display:
 
   
 ![5_49703049-49f2-4e17-8212-95e98ee98ed6_large](https://user-images.githubusercontent.com/104939556/191604401-34eec7e3-5d60-4a9b-bb88-94335fb3b7c7.jpg)
