@@ -58,7 +58,6 @@ E: Corresponde al pin Enable o de habilitación. Si E(0) esto quiere decir que e
 
   ```
 
-
 #include <18f4550 .h=»»> //incluimos el pic a utilizar
 #fuses hs,nowdt,noprotect,nolvp  //fusibles
 #use delay(clock=20000000) //Cristal de cuarzo de 20Mhz
@@ -76,6 +75,7 @@ delay_ms(100);
 lcd_putc(«\f Ingenieria»);
 lcd_putc(«\n Mecafenix»);
 }
+
   ```
   
 
@@ -158,11 +158,7 @@ Para hacer uso del conjunto se hace necesaria la librería “Wire.h”, que nos
 
 Depende la versión del display también se conecta así:
 
-
 SDA = A4
-
-
-
 
 SCL = A5
 
@@ -170,61 +166,22 @@ SCL = A5
 #### Código:
 
  ```
-
 #include <Wire.h> // Esta Librería es la que permite la comunicacion por I2C
-
 #include <LiquidCrystal_I2C.h> //Esta es la librería controladora del LCD propiamente
-
- 
-
 LiquidCrystal_I2C lcd(0x3F, 16, 2); // (Direccion del display, Número de columnas del LCD, Número de filas del LCD)
-
- 
-
 void setup()
-
 {
-
   lcd.init(); //Inicializamos el LCD
-
- 
-
   lcd.backlight(); // Con este comando encendemos la luz de fondo
-
- 
-
   lcd.setCursor(6, 0); //debemos ubicar el cursor antes de escribir así: (columna donde empieza, fila donde empieza)
-
- 
-
   lcd.print("Arca"); // Escribimos la primera palabra
-
- 
-
   lcd.setCursor(3, 1); // Ubicamos el cursor en la fila de abajo
-
- 
-
   lcd.print("Electronica"); // Escribimos la segunda palabra
-
- 
-
   delay(5000); // Esperamos 5 segundos
-
- 
-
   lcd.clear(); // comando para borrar el display
-
- 
-
   lcd.noBacklight(); // comando para apagar la luz de fondo
-
 }
-
- 
-
 void loop()
-
 {
 
 }
@@ -260,10 +217,14 @@ void loop()
   
   **Bibliografia** 
   ```
-  **Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de** [https://wokwi.com/projects/343461815639867987](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c).
+  **Arrieta, V. (2018, 18 diciembre). DISPLAY LCD 16X2 CON MÓDULO I2C. arcaelectronica Recuperado 21 de septiembre de 2022, de**
+  [https://wokwi.com/projects/343461815639867987](https://www.arcaelectronica.com/blogs/tutoriales/display-lcd-16x2-con-modulo-i2c).
   
-  **Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de** [https://www.ingmecafenix.com/electronica/lcd/](https://www.ingmecafenix.com/electronica/lcd/).
+  **Mecafenix, I. (2022, 15 junio). ¿Qué es un LCD de 16×2? Ingeniería Mecafenix. Recuperado 21 de septiembre de 2022, de**
+  [https://www.ingmecafenix.com/electronica/lcd/](https://www.ingmecafenix.com/electronica/lcd/).
   
-  **Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de** [https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/](https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/).
+  **Valle, L. (s. f.). Texto en movimiento en un LCD con Arduino. programarfacil.com. Recuperado 21 de septiembre de 2022, de**
+  [https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/](https://programarfacil.com/blog/arduino-blog/texto-en-movimiento-en-un-lcd-con-arduino/).
+  
    ```
 
